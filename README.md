@@ -19,4 +19,4 @@ Create a stylish profile card using HTML, CSS, and JavaScript.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/moundirb/profile-card.git)https://github.com/moundirb/profile-card.git
+   git clone https://github.com/moundirb/profile-card.git
