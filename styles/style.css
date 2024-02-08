@@ -1,0 +1,151 @@
+body {
+  background-color: black;
+  font-family: 'Andika';
+}
+
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: auto;
+  box-sizing: border-box;
+  left: 80px;
+  top: -80px;
+  border: none;
+
+  background-color: #18181B;
+  width: 300px;
+  top: 30%;
+  left: 40%;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.first-row {
+  z-index: 10;
+  display: flex;
+  padding: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+.img-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem; 
+
+}
+
+.user-pic {
+  z-index: 0;
+  outline: none;
+  width: 2.5rem; 
+  height: 2.5rem;
+  border-radius: 9999px;
+  object-fit: cover;
+  object-position: right;
+  justify-content: center;
+  box-sizing: border-box;
+  color: #888888; 
+  border-width: 2px;
+  border-style: solid;
+border-color: #34db7f;;
+}
+
+.user-info {
+  
+  font-weight: 600;
+  line-height: 0px;
+  color: #888888; 
+  letter-spacing: -0.01562em;
+  
+}
+.user-name{
+  color: white;
+}
+.user-id{
+  font-weight: 400;
+}
+
+.follow-button {
+  align-items: center;
+  font-weight: 400;
+  font-size: 0.75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  width: max-content;
+  height: 2rem; 
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 9999px;
+  border: none;
+  border: 2px solid transparent; /* Set a default border */
+}
+
+.follow-button:hover {
+  transition: 0.25s;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+ /* class for the Unfollowed state */
+.unfollowed {
+  background-color: transparent;
+  transform: scale(0.97);
+  border-width: medium;
+  color: #fff;
+  border: 2px solid #888888;
+
+
+}
+
+.second-row{
+  padding: 0.75rem;
+
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex: 1;
+  flex-direction: column;
+  height: auto;
+align-items: center;
+  word-wrap: break-word;
+  overflow-y: auto;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 0;
+  text-align: left;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.second-row p {
+  font-size: 0.875rem; /* text-sm equivalent */
+  padding-left: 10px; /* pl-px equivalent */
+  color: #888888; 
+  
+}
+
+.third-row{
+
+  padding: 0.75rem;
+  height: auto;
+display: flex;
+width: 100%;
+align-items: center;
+overflow: hidden;
+color: #888888; /* Replace with your specific color value */
+gap: 0.75rem;
+font-size: 0.875rem; /* Adjust the font size as needed */
+
+}
+.label-f{
+  display: flex;
+  gap: 0.25rem;
+}
+.number{
+  font-weight: 600;
+
+}
+
