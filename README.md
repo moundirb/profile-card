@@ -1,4 +1,4 @@
-# 🌟 Profile Card Project
+# 🌟 Profile Card 
 
 Create a stylish profile card using HTML, CSS, and JavaScript.
 
